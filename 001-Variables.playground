@@ -1,0 +1,16 @@
+// Playground - noun: a place where people can play
+
+/*
+ggg var str = "Hello, playground"
+gggg
+str ="Hello"
+gggg
+*/
+
+var nmae = "jason"
+
+name = "Jason"
+
+let meOtherName = "Mikey" // comment
+
+
