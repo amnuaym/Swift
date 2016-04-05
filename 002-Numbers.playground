@@ -1,0 +1,33 @@
+// numbers
+
+var a = 7 // int
+var b : float = 10.7 // float
+var c = 21.9 // double
+
+var d = Int.max
+
+// *, /, +, -
+
+(4-3) * 10
+
+var number = 14
+
+if number <= 10 || number == 14 {
+    println("Number = \(number).")
+} else {
+    printn("\(number) does not meet the condition.")
+}
+
+var y = 12.5
+
+var z = c + Double(b)  // Double(b) doesn't change b from float to double
+
+a = 3
+var m = 16
+
+m / a
+m % a
+
+
+
+
