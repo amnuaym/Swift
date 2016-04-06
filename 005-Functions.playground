@@ -1,0 +1,44 @@
+// FUNCTIONS
+
+func greeting() {
+    println("Hello there.") // this not work.
+}
+
+// this when call will not work cause it wasn't stated return when declared function.
+func greeting() {
+    return "Hello there." 
+}
+
+greeting()
+
+// this works properly.
+func greeting() --> String {
+    return "Hello there." 
+}
+
+greeting()
+
+//specify input
+func greeting(name: String) {
+    return "Hello there \(name)." 
+}
+
+greeting("class")
+greeting("Jason")
+
+func area(num1: Int, num2: Int) --> String {
+    if num1 == num2 {
+        return "The square is \(num1 * num2) square inches."
+    } else {
+        return "The rectangle is \(num1 * num2) square inches."
+    }
+}
+
+area(12, 15)
+area(12, 12)
+
+
+
+/* ############################################################################################
+AM 20160406
+###############################################################################################*/
