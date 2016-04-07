@@ -1,0 +1,41 @@
+//GETTERS AND SETTERS - property observers
+
+//Example 1
+
+var inches = 0.00
+var feet : Double {
+get {
+    return (inches / 12)
+}
+set {
+    inches = (newValue *12)
+}
+}
+
+inches = 24
+
+println("Inches = \(inches)")
+println("Feet = \(feet)")
+
+//Example 2
+
+var celcius = 0.00
+var farhenheit : Double {
+get {
+    return (celcius * 1.8) +32
+}
+set {
+    celcius = (newValue -32) / 1.8
+}
+}
+
+farhenheit = 75
+println("Celcius is \(celcius) and that means farhenheit is \(farhenheit)")
+
+
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
