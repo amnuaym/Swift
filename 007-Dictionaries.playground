@@ -1,0 +1,29 @@
+// Dictionaries
+
+//                     key    value
+var emptyDictionary = [String:String]()
+
+var states = ["NJ": "New Jersey", "NY": "New York", "CA": "California", "FL": "Florida", "TX": "Texas"]
+
+states.count
+
+states.count
+
+states["NY"]
+states["NY"] = nil              // this actually remove that part of dictionary
+
+states
+states["NY"] = "New York"
+
+states
+
+states.updateValue("Pennsylvania"), forKey: "PA")
+
+states
+
+var products = [123: "Apples", 234: "Bananas", 345: "Pears", 456: "Grapes"]
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
