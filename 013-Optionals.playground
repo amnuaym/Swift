@@ -1,0 +1,40 @@
+// OPTIONALS
+
+var score : Int 
+
+println ("The score is currently \(score).")  //error here the score has been used before being initialized.
+
+
+var score : Int?                                // nil
+
+println ("The score is currently \(score).")    //The score is currently nil.
+
+var score : Int?
+score = 21
+println ("The score is currently \(score).")    //The score is currently Optional(21).
+
+
+var score : Int?
+score = 21
+//forced unwrapping
+println ("The score is currently \(score!).")    //The score is currently 21.
+
+if score != nil {
+    println("The score is currently \(score!)")
+} else {
+    println("Could not get score.")
+}
+
+// optional binding
+
+if let confirmedScore = score {
+    println("The score is currently \(confirmedScore)")
+} else {
+    println("Could not get the current score.")
+}
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
