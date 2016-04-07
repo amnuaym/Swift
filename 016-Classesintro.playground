@@ -1,0 +1,37 @@
+// CLASSES
+
+class Person {
+		// properties (variables)
+		var name : String
+		var age : Int
+		var occu : String
+		
+		// methods (functions)
+		func description() -> String {
+				return "\(name) is a \(age) year old \(occu)."
+		}
+
+		// initializer
+		init() {
+				name = "John"
+				age = 30
+				occu = "Laborer"
+		}
+
+		// custom initializer
+		init(name: String, age: Int, occu: String) {
+				self.name = name
+				self.age = age
+				self.occu = occu
+		}
+}
+
+var jason = Person(name: "Jason", age: 39, occu: "Developer")
+
+jason.descriprion()											// returned "Jason is a 39 year old Developer.
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
