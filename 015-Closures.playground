@@ -1,0 +1,29 @@
+// CLOSURES
+
+var names =["Tyler", "Zach", "Mike", "Jack", "Abby", "Christina"]
+
+func alpha(name1: String, name2: String) -> Bool {
+    return name1 < name2                                          // Alphabetically before name2
+}
+
+alpha("Jason", "Christina")                                       // false
+
+{(name1: string, name2: String) -> Bool in
+    return name1 < name2
+}
+
+var sortedNames = sorted(names, {(name1, name2) -> Bool in return name1 < name2})
+var sortedNames = sorted(names, <)
+
+sorted(names, >)
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
+
+
+
+
+
