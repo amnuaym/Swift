@@ -1,0 +1,45 @@
+// ENUMERATIONS
+
+import UIKit
+
+var bg = UIColor.redColor()
+var keyboard = UIKeyboardAppearance.Dark
+
+enum PrinterStatus {
+    case Online
+    case Offline
+    case Printing
+    case ReportingError
+}
+
+var canon : PrinterStatus
+canon = PrinterStatus.Online            // or canon = .Online
+
+var hp = PrinterStatus.Offline
+
+var online : Bool = false
+
+switch hp {
+    case .Online:
+        online = true
+    case .Offline:
+        online = false
+    case .Printing
+        online = true
+    case .ReportingError
+        online = false
+        
+}
+
+online                                      //false
+
+var hp = Printerstatus.Printing
+
+online                                      // true
+
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
