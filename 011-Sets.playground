@@ -1,0 +1,28 @@
+// SETS - a new collection type for Swift
+
+// Introduced in Swift 1.2, Xcode 6.3
+
+var teams : Set<String>
+
+var myBills : Set = ["electricity", "water", "internet", "water"]
+
+myBills.insert("cable")
+
+myBills.remove("water")
+
+myBills
+
+myBills.count                                   // duplicated item was not counted!!
+
+myBills = []
+
+myBills.removeAll(keepCapacity: false)
+
+var ints : Set =[1, 2, 3]                       // Set store information randomly not in order like array 
+
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
