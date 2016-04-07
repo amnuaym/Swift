@@ -1,0 +1,25 @@
+// ARRAYS
+// index
+
+var cars = ["Ferrary F50", "Cadillac STS", "Chrysler 300", "Dodge Viper", "Ford F350", "Chevy Corvette", "Chevy Nova SS", "Dodge Dart", "Cadillac Escelade", "Dodge Derango"]
+
+var scores == [67, 98, 76, 95, 53, 86, 110]
+
+cars.count
+cars.removeLast()
+
+cars.removeAtIndex(8)
+
+cars
+
+cars.append("Caddy")
+
+cars.insert("Car", atIndex: 9)
+cars
+
+
+
+
+/* ############################################################################################
+AM 20160406
+###############################################################################################*/
