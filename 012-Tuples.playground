@@ -1,0 +1,37 @@
+// TUPLES
+
+var products = [123: "Bananas", 234: "Apples", 345: "Pears", 456: "Oranges"]
+
+for (sku, product) in produts {
+    println("The sky for \(product) is \(sku)")
+}
+
+var mac = ("Macbook Pro", 2015)
+
+mac.0
+mac.1
+
+var mac = (model: "Macbook Pro", year: 2015)
+
+mac.model
+mac.year
+
+func getCarDetails() -> (model: String, TopSpeed: Int, isConvertable: Bool) {
+    var model = "Camaro"
+    var topSpeed = 145
+    var is Convertable = true
+    
+    return (model, topSpeed, isConvertable)
+}
+
+var camaro = getCarDetails()
+
+camaro.momdel
+camaro.topSpeed
+camaro.isConvertable
+
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
