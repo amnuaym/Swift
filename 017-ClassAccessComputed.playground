@@ -1,0 +1,49 @@
+//CLASSES - ACCESS LEVELS, TYPE ACCESS, COMPUTED and STORED PROPERTIES
+//          (private, internal, public), (class),
+
+class Person {
+    // stored properties
+    var fName : String
+    var lName : String
+    var age : Int
+    var occu : String
+    class var employer : String {
+        return "Apple"
+    }
+    class var insurance : String {
+        return "BC/B5"
+    }
+    var hoursPerWeek : Int
+    var hourlyRate : Double
+    
+    // computed properties
+    var fullName : String {
+        return "\(fName) \(lName)"
+    }
+
+    var weeklySalary : Double {
+        return Double(hoursPerWeek) * hourlyRate
+    }
+
+    // methods
+    func description() -> String {
+        return "\(employer) currently uses \(insurance) for employee insurance."
+    }
+
+    // custom initializer
+    init(fName: String, lName: String, age: Int, occu: String, hoursPerWeek: Int, hourlyRate: Double) {
+        self.fName = fName
+        self.lName = lName
+        self.age = age
+        self.occu = occu
+        self.hoursPerWeek = hoursPerWeek
+        self.hourlyRate = hourlyRate
+    }
+
+}
+
+
+/* ############################################################################################
+AM 20160407
+###############################################################################################*/
+
